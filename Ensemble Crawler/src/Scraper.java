@@ -18,23 +18,22 @@ public class Scraper {
 	public Scraper() 
 	{
 		JSONObject JSONobj;
+		FileWriter writer = null;
 		Document doc = null;
 		JSONParser parser = new JSONParser();
 		try {
 			
-			JSONobj = (JSONObject) parser.parse(new FileReader("userdata.json"));
-			long number_of_users = (Long) JSONobj.get("users");
-			System.out.println(number_of_users);
-
+			JSONobj = (JSONObject) parser.parse(new FileReader("db.json"));
+			
+			
 			// loop through urls
 			JSONArray sounds = (JSONArray) JSONobj.get("soundcloudurls");
-			//@SuppressWarnings("unchecked") //Using legacy API
+		
 			Iterator<?> iterator = sounds.iterator();
 			while (iterator.hasNext()) {
 				
 				String url = (String) iterator.next();
-					for(int i = 0; i< number_of_users; i++)
-					{
+												
 						try {
 							doc = Jsoup.connect(url).get();
 						} 
@@ -43,18 +42,17 @@ public class Scraper {
 							System.out.println("Can't access url");
 							ioe.printStackTrace();
 						}
-						//System.out.println("b4 section after load");
+						
 						Elements section = doc.getElementsByClass("comments");
 						
-						//System.out.println("after section");
-						//System.out.println(section.text());
 						Elements paragraphs = section.select("p");
-						//System.out.println(paragraphs.text());
 						
 						try {
-				            FileWriter writer = new FileWriter("Scrape_Output.txt", false);
+				            writer = new FileWriter("Scrape_Output.txt", true);
+				            writer.write("\n");
 				            writer.write(paragraphs.text());
-				            writer.close();
+				            writer.write("\n");
+				           
 				        } 
 						catch (IOException e)
 						{
@@ -62,10 +60,10 @@ public class Scraper {
 				            e.printStackTrace();
 				        }
 						
+						writer.close();
+						
 					}
-					
-			}
-
+						
 		}
 		
 		catch(IOException | ParseException exp)
@@ -74,7 +72,7 @@ public class Scraper {
 		}
 		
 		
-		
+		 
 					
 					
 							
