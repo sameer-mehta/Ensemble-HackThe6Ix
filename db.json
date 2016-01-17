@@ -1,0 +1,187 @@
+{
+  "summary": [{
+    "users": "4",
+    "soundcloudurls":
+    [
+      {
+        "link": "https://soundcloud.com/mrinal-desai/rachel-nusbaumer-in-my-soul-tcm-underground-official-spiccatto-unleashed-reclassified",
+      },
+      {
+        "link": "https://soundcloud.com/gtownspittaz/sets/da-tape",
+      },
+      {
+        "link": "https://soundcloud.com/liannajoymusic/adele-hello-cover-by-lianna-joy",
+      },
+      {
+        "link": "https://soundcloud.com/art-tawanghar/8dio-2015-stand-out-contest-submission-path-of-divinity-by-art-tawanghar",
+      }
+    ]
+  }]
+}
+
+{
+  "musicians": [
+    {
+      "id": 0,
+      "name": "Tian-Yuan Zhao",
+      "image": "images/tian.png",
+      "rating": "3/5",
+      "description": "I'm a versatile musician with a ton of pizzaz",
+      "qualities":
+      [
+        {
+          "family": "percussion",
+          "instrument": "piano",
+          "genre": "classical",
+          "years": "10",
+
+        },
+        {
+          "family": "vocals",
+          "instrument": "singing",
+          "genre": "jazz",
+          "years": "5",
+        },
+        {
+          "family": "brass",
+          "instrument": "trombone",
+          "genre": "classical",
+          "years": "7",
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Tian-Yuan Zhao",
+      "link":
+      "image": "images/tian.png",
+      "rating": "3/5",
+      "description": "I'm a versatile musician with a ton of pizzaz",
+      "instruments": [
+        {
+          "#1": "Vocals"
+        },
+        {
+          "#2": "Piano"
+        },
+        {
+          "#3": "Trombone"
+        }
+      ],
+      "genres": [
+        {
+          "#1": "Classical"
+        },
+        {
+          "#2": "Jazz"
+        },
+        {
+          "#3": "Pop"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tian-Yuan Zhao",
+      "image": "images/tian.png",
+      "rating": "3/5",
+      "description": "I'm a versatile musician with a ton of pizzaz",
+      "instruments": [
+        {
+          "#1": "Vocals"
+        },
+        {
+          "#2": "Piano"
+        },
+        {
+          "#3": "Trombone"
+        }
+      ],
+      "genres": [
+        {
+          "#1": "Classical"
+        },
+        {
+          "#2": "Jazz"
+        },
+        {
+          "#3": "Pop"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tian-Yuan Zhao",
+      "image": "images/tian.png",
+      "rating": "3/5",
+      "description": "I'm a versatile musician with a ton of pizzaz",
+      "instruments": [
+        {
+          "#1": "Vocals"
+        },
+        {
+          "#2": "Piano"
+        },
+        {
+          "#3": "Trombone"
+        }
+      ],
+      "genres": [
+        {
+          "#1": "Classical"
+        },
+        {
+          "#2": "Jazz"
+        },
+        {
+          "#3": "Pop"
+        }
+      ]
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Weekend Grand Buffet",
+      "image": "images/buffet.png",
+      "label": "New",
+      "price": "19.99",
+      "description": "Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person "
+    }
+  ],
+  "leadership": [
+    {
+      "id": 0,
+      "name": "Peter Pan",
+      "image": "images/alberto.png",
+      "designation": "Chief Epicurious Officer",
+      "abbr": "CEO",
+      "description": "Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections."
+    },
+    {
+      "id": 1,
+      "name": "Dhanasekaran Witherspoon",
+      "image": "images/alberto.png",
+      "designation": "Chief Food Officer",
+      "abbr": "CFO",
+      "description": "Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!"
+    },
+    {
+      "id": 2,
+      "name": "Agumbe Tang",
+      "image": "images/alberto.png",
+      "designation": "Chief Taste Officer",
+      "abbr": "CTO",
+      "description": "Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, You click only if you survive my lick."
+    },
+    {
+      "id": 3,
+      "name": "Alberto Somayya",
+      "image": "images/alberto.png",
+      "designation": "Executive Chef",
+      "abbr": "EC",
+      "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
+    }
+  ],
+  "feedback": []
+}
