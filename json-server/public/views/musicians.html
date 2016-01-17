@@ -1,0 +1,77 @@
+<div class="container" ng-controller="IndexController" ng-controller="MusicianController">
+  <div class="row row-content">
+    <div class="col-xs-12">
+        <h3></h3>
+    </div>
+    <div class="col-xs-12">
+
+<!--
+      <ul class="nav nav-pills" role="presentation">
+          <li role="presentation"
+          ng-class=-"{active;isSelected(1)}">
+          <a ng-click="select(1)"
+           aria-controls="all musicians"
+           role="tab">All Musicians</a></li>
+
+          <li role="presentation"
+          ng-class=-"{active;isSelected(2)}">
+          <a ng-click="select(2)"
+           aria-controls="classical"
+           role="tab">Classical</a></li>
+
+          <li role="presentation"
+          ng-class=-"{active;isSelected(3)}">
+          <a ng-click="select(3)"
+           aria-controls="jazz"
+           role="tab">Jazz</a></li>
+
+          <li role="presentation"
+          ng-class=-"{active;isSelected(4)}">
+          <a ng-click="select(4)"
+           aria-controls="soundtrack"
+           role="tab">Soundtrack</a></li>
+      </ul>
+    -->
+
+      <div class="media">
+        <h3 class="media-right">
+          <small>
+            Sort by:
+            <select ng-class="select(value)" ng-model="value">
+              <option value="rating">Ascending Ratings</option>
+              <option value="-rating" selected>Descending Ratings</option>
+            </select>
+          </small>
+        </h3>
+      </div>
+
+      <div class="bootcards-list">
+        <div class="panel panel-default">
+          <div class="list-group" ng-repeat="musician in musicians | orderBy:filterText">
+            <a class="list-group-item" ui-sref="app.profile">
+              <div class="row">
+                <center>
+                  <div class="col-sm-2">
+                    <img class="img-circle" ng-src={{musician.image}} alt="">
+                  </div>
+                </center>
+                <div class="col-sm-5">
+                  <h4 class="list-group-item-heading">{{musician.name}}</h4>
+                  <p class="list-group-item-text">
+                    <b>Summary: </b><br>{{musician.description}}</p>
+                  <p class="list-group-item-text">
+                    <b>Rating: </b> {{musician.rating | number: 2}}%</p>
+                </div>
+                <div class="col-sm-5" ng-repeat="quality in musician.qualities">
+                  <span class="label label-default">{{quality.genre}}</span>
+                  <span class="label label-primary">{{quality.instrument}}</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

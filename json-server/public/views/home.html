@@ -1,0 +1,29 @@
+<div class="container" ng-controller="IndexController">
+
+    <div class="row row-content">
+      <!--
+      <div class="row">
+          <p style="padding:20px;"></p>
+          <h3 align=center>!</h3>
+      </div>
+    -->
+
+      <div class="col-xs-4" ng-repeat="element in elements">
+        <div class="row">
+          <center>
+            <img class="img-circle" ng-src={{element.image}} alt="">
+            <h2>{{element.title}}</h2>
+            <h4>{{element.head}}</h4>
+            <div class="row" ng-repeat="detail in element.details">
+              <h5>{{detail.sub}}</h5>
+              <p>
+                {{detail.desc}}
+              </p>
+            </div>
+          </center>
+        </div>
+      </div>
+
+    </div>
+
+</div>

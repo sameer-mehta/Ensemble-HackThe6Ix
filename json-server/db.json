@@ -1,0 +1,325 @@
+{
+<<<<<<< HEAD
+  "musicians": [
+    {
+      "id": 0,
+      "name": "TCM Underground Official",
+      "image": "https://i1.sndcdn.com/avatars-000153055685-qe9roh-t500x500.jpg",
+      "rating": "41.112171593074656",
+      "description": "Greetings! Welcome to my Main Soundcloud Profile! Feel free to remix any of my tracks! Download links should be open. I am constantly listening to several new sounds on the Cloud and may even knock on your door to request a collaboration if a track appeals to me! All Genres of Music appeal to me. I love mixing genres and creating unique sounds. My main focus lately has been in the Classical genre. :-) Warm Regards and Have a Wonderful 2016 Ahead, Mrinal Dvijen Desai The Cajun Mafia Underground Official",
+      "qualities": [
+=======
+  "summary": [{
+    "users": "4",
+    "soundcloudurls":
+    [
+      {
+        "link": "https://soundcloud.com/mrinal-desai/rachel-nusbaumer-in-my-soul-tcm-underground-official-spiccatto-unleashed-reclassified",
+      },
+      {
+        "link": "https://soundcloud.com/gtownspittaz/sets/da-tape",
+      },
+      {
+        "link": "https://soundcloud.com/liannajoymusic/adele-hello-cover-by-lianna-joy",
+      },
+      {
+        "link": "https://soundcloud.com/art-tawanghar/8dio-2015-stand-out-contest-submission-path-of-divinity-by-art-tawanghar",
+      }
+    ]
+  }]
+}
+
+{
+  "musicians": [
+    {
+      "id": 0,
+      "name": "Tian-Yuan Zhao",
+      "image": "images/tian.png",
+      "rating": "3/5",
+      "description": "I'm a versatile musician with a ton of pizzaz",
+      "qualities":
+      [
+>>>>>>> 79a0a5e03866c41907b6e279355d11d31d992072
+        {
+          "family": "percussion",
+          "instrument": "piano",
+          "genre": "classical",
+<<<<<<< HEAD
+          "years": "9"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Art Tawanghar",
+      "image": "https://i1.sndcdn.com/avatars-000197525761-x3zpir-t500x500.jpg",
+      "rating": "99.0482031547345",
+      "description": "My soundtracks are going to transport you to a whole new dimension!",
+      "qualities": [
+        {
+          "family": "stringed",
+          "instrument": "zitar",
+          "genre": "soundtrack",
+          "years": "7"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lianne Joy",
+      "image": "https://i1.sndcdn.com/avatars-000182756862-v4c92z-t500x500.jpg",
+      "rating": "64.4508498420949",
+      "description": "Follow me! twitter.com/LiannaJoyMusic youtube.com/LiannaJoyMusic facebook.com/LiannaJoyMusic instagram.com/LiannaJoyMusic Follow me on SnapChat @LiannaJoyMusic Singer-Songwriter, Las Vegas MGMT: Jordan@MatchSound.com",
+      "qualities": [
+        {
+          "family": "vocals",
+          "instrument": "singing",
+          "genre": "acoustic",
+          "years": "5"
+=======
+          "years": "10",
+
+        },
+        {
+          "family": "vocals",
+          "instrument": "singing",
+          "genre": "jazz",
+          "years": "5",
+        },
+        {
+          "family": "brass",
+          "instrument": "trombone",
+          "genre": "classical",
+          "years": "7",
+>>>>>>> 79a0a5e03866c41907b6e279355d11d31d992072
+        }
+      ]
+    },
+    {
+<<<<<<< HEAD
+      "id": 3,
+      "name": "G-TownSpittaz",
+      "image": "https://i1.sndcdn.com/avatars-000153741497-556x1e-t500x500.jpg",
+      "rating": "99.95796883514636",
+      "description": "We are a singing/rap group dedicated to producing authentic original type tracks.",
+      "qualities": [
+        {
+          "family": "vocals",
+          "instrument": "singing",
+          "genre": "jazz",
+          "years": "10"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "id": 0,
+      "image": "images/Icon-Repertoire.png",
+      "title": "Repertoire",
+      "head": "Music wherever & whenever you need it",
+      "details": [
+        {
+          "sub": "Online music notation software:",
+          "desc": "arrange, compose, and edit music in real-time"
+        },
+        {
+          "sub": "Digitized music programmes for your concerts:",
+          "desc": "templates for concert program designing"
+        },
+        {
+          "sub": "Distribution of your sheet music:",
+          "desc": "share your music in your chosen format"
+=======
+      "id": 1,
+      "name": "Tian-Yuan Zhao",
+      "link":
+      "image": "images/tian.png",
+      "rating": "3/5",
+      "description": "I'm a versatile musician with a ton of pizzaz",
+      "instruments": [
+        {
+          "#1": "Vocals"
+        },
+        {
+          "#2": "Piano"
+        },
+        {
+          "#3": "Trombone"
+        }
+      ],
+      "genres": [
+        {
+          "#1": "Classical"
+        },
+        {
+          "#2": "Jazz"
+        },
+        {
+          "#3": "Pop"
+>>>>>>> 79a0a5e03866c41907b6e279355d11d31d992072
+        }
+      ]
+    },
+    {
+<<<<<<< HEAD
+      "id": 1,
+      "image": "images/Icon-Events.png",
+      "title": "Performances",
+      "head": "Giving you more time to focus on rehearsals!",
+      "details": [
+        {
+          "sub": "Concert Management",
+          "desc": "A/V Management, Operations, we've got you covered!"
+        },
+        {
+          "sub": "Education Facilitation",
+          "desc": "generate content for your masterclasses more efficiently"
+        },
+        {
+          "sub": "Auditions",
+          "desc": "generate content for your rehearsal more effectively"
+=======
+      "id": 2,
+      "name": "Tian-Yuan Zhao",
+      "image": "images/tian.png",
+      "rating": "3/5",
+      "description": "I'm a versatile musician with a ton of pizzaz",
+      "instruments": [
+        {
+          "#1": "Vocals"
+        },
+        {
+          "#2": "Piano"
+        },
+        {
+          "#3": "Trombone"
+        }
+      ],
+      "genres": [
+        {
+          "#1": "Classical"
+        },
+        {
+          "#2": "Jazz"
+        },
+        {
+          "#3": "Pop"
+>>>>>>> 79a0a5e03866c41907b6e279355d11d31d992072
+        }
+      ]
+    },
+    {
+      "id": 2,
+<<<<<<< HEAD
+      "image": "images/Icon-Talent.png",
+      "title": "Talent",
+      "head": "It's like LinkedIn for Musicians",
+      "details": [
+        {
+          "sub": "Discovery",
+          "desc": "finding great talent is difficult, this is where we step in!"
+        },
+        {
+          "sub": "Tracking & Management",
+          "desc": "keep a better eye on your talent and improve your insight on them"
+        },
+        {
+          "sub": "Alumni Engagement",
+          "desc": "easily access those who can give back in more ways than one"
+=======
+      "name": "Tian-Yuan Zhao",
+      "image": "images/tian.png",
+      "rating": "3/5",
+      "description": "I'm a versatile musician with a ton of pizzaz",
+      "instruments": [
+        {
+          "#1": "Vocals"
+        },
+        {
+          "#2": "Piano"
+        },
+        {
+          "#3": "Trombone"
+        }
+      ],
+      "genres": [
+        {
+          "#1": "Classical"
+        },
+        {
+          "#2": "Jazz"
+        },
+        {
+          "#3": "Pop"
+>>>>>>> 79a0a5e03866c41907b6e279355d11d31d992072
+        }
+      ]
+    }
+  ],
+<<<<<<< HEAD
+  "stats": [
+    {
+      "speechiness": 0.03853960352094016,
+      "tempo": 150.197,
+      "danceability": 0.5050719465117695,
+      "loudness": -15.669,
+      "timeSignature": 4,
+      "key": 7,
+      "energy": 0.5031444923348228,
+      "mode": 1,
+      "liveness": 0.15605984120982364,
+      "Tempo Consistency(% tempo similarity)": 96.48974697371186,
+      "beat Consistency": 0
+    }
+  ],
+  "feedback": []
+}
+=======
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Weekend Grand Buffet",
+      "image": "images/buffet.png",
+      "label": "New",
+      "price": "19.99",
+      "description": "Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person "
+    }
+  ],
+  "leadership": [
+    {
+      "id": 0,
+      "name": "Peter Pan",
+      "image": "images/alberto.png",
+      "designation": "Chief Epicurious Officer",
+      "abbr": "CEO",
+      "description": "Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections."
+    },
+    {
+      "id": 1,
+      "name": "Dhanasekaran Witherspoon",
+      "image": "images/alberto.png",
+      "designation": "Chief Food Officer",
+      "abbr": "CFO",
+      "description": "Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!"
+    },
+    {
+      "id": 2,
+      "name": "Agumbe Tang",
+      "image": "images/alberto.png",
+      "designation": "Chief Taste Officer",
+      "abbr": "CTO",
+      "description": "Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, You click only if you survive my lick."
+    },
+    {
+      "id": 3,
+      "name": "Alberto Somayya",
+      "image": "images/alberto.png",
+      "designation": "Executive Chef",
+      "abbr": "EC",
+      "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
+    }
+  ],
+  "feedback": []
+}
+>>>>>>> 79a0a5e03866c41907b6e279355d11d31d992072
