@@ -9,31 +9,34 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-
+//Imports
 
 public class Scraper {
 	
 		
-	
+	//Default Constructor
 	public Scraper() 
 	{
-		JSONObject JSONobj;
-		FileWriter writer = null;
-		Document doc = null;
-		JSONParser parser = new JSONParser();
+		JSONObject JSONobj; //JSON object, used to read user data from json files 
+		FileWriter writer = null; //Used to write scraped comments
+		Document doc = null; //Document used to fetch html
+		JSONParser parser = new JSONParser(); //parser for json
+		//Get user data(sound cloud urls from json)
 		try {
 			
 			JSONobj = (JSONObject) parser.parse(new FileReader("db.json"));
 			
 			
-			// loop through urls
+			// loop through file and get urls
 			JSONArray sounds = (JSONArray) JSONobj.get("soundcloudurls");
-		
+			
+		    //Used to iterate through urls
 			Iterator<?> iterator = sounds.iterator();
 			while (iterator.hasNext()) {
 				
 				String url = (String) iterator.next();
-												
+						
+						//Connect to website using Jsoup API
 						try {
 							doc = Jsoup.connect(url).get();
 						} 
@@ -43,10 +46,13 @@ public class Scraper {
 							ioe.printStackTrace();
 						}
 						
+						//Get comments class
 						Elements section = doc.getElementsByClass("comments");
 						
+						//Get all paragraph elements under section class comments
 						Elements paragraphs = section.select("p");
 						
+						//Try to write/ append paragraph text data to output file 
 						try {
 				            writer = new FileWriter("Scrape_Output.txt", true);
 				            writer.write("\n");
@@ -65,7 +71,7 @@ public class Scraper {
 					}
 						
 		}
-		
+		//Final catch for exceptions
 		catch(IOException | ParseException exp)
 		{
 			exp.printStackTrace();
