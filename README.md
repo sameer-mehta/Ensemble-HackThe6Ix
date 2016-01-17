@@ -9,4 +9,6 @@ The back-end was done with the following tools: we used jsoup to scrape the soun
 
 The indico api to do sentimental analysis on the scraped comments to produce a rating as well as a text tag bubble was developed for each musician.
 
+Furthermore, the echo nest api was used to generate acoustic attributes such as danceability, energy etc. 
+
 The front end was done in Angular.JS.
